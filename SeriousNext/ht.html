@@ -11,21 +11,6 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <!-- Babel Script -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/jsx">
-        function Header({title}){
-            console.log(title);
-            return <h1>{title}</h1>;
-        }
-        function Homepage(){
-            return(
-                <div>
-                    <Header title = "React"/>
-                </div>
-            );
-        }
-        const domNode = document.getElementById("app")
-        const root = ReactDOM.createRoot(domNode);
-        root.render(<Homepage />);
-    </script>
+    <script src="app.jsx" type="text/jsx"></script>
 </body>
 </html>
